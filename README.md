@@ -39,7 +39,7 @@ Click to see different distorted level omnidirectional images. You can also down
 ```
 python train_oiqa.py
 ```
-### Predicting one image quality score
+### Predicting one ODI quality score
 - Modify the path of image "image_path"
 - Modify the path of checkpoint "model_weight_path"
 ```
