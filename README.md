@@ -14,6 +14,16 @@ Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng an
 This repository is the official PyTorch implementation of Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment. :fire::fire::fire:
 
 
+|Ground Truth|Distortion 1|Distortion 2|Distortion 3|Distortion 4|
+|       :---:       |     :---:        |        :-----:         |        :-----:         |        :-----:         | 
+| <img width="200" src="images/GT_1.png">|<img width="200" src="images/dis1_1.png">|<img width="200" src="images/dis2_1.png">|<img width="200" src="images/dis3_1.png">|<img width="200" src="images/dis4_1.png">|
+|**MOS (GT)**|**3.45 (1)**|**2.95 (2)**|**1.6 (3)**|**1.1 (4)**|
+|**Ours (Assessor360)**|**0.5933 (1)**|**0.5213 (2)**|**0.1220 (3)**|**0.0120 (4)**|
+
+
+
+
+
 ## Citation
 ```
 @article{wu2023assessor360,

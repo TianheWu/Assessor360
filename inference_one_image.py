@@ -228,7 +228,7 @@ if __name__ == '__main__':
     # config file
     config = Config({
         # image path
-        "image_path": "./images/36.png",
+        "image_path": "./images/dis1_1.png",
 
         # model
         "num_layers": 6,
