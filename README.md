@@ -8,7 +8,12 @@ Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng an
 - ✅ **June. 7, 2023**: We release the Assessor360 source code.
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green.svg)](https://arxiv.org/abs/2305.10983)
+[![download](https://img.shields.io/github/downloads/TianheWu/Assessor360/total.svg)](https://github.com/TianheWu/Assessor360/releases)
+[![Open issue](https://img.shields.io/github/issues/TianheWu/Assessor360)](https://github.com/TianheWu/Assessor360/issues)
+[![Closed issue](https://img.shields.io/github/issues-closed/TianheWu/Assessor360)](https://github.com/TianheWu/Assessor360/issues)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=TianheWu/Assessor360)
 [![IIGROUP](https://img.shields.io/badge/IIGROUP-github-red.svg)](https://github.com/IIGROUP)
+[![GitHub Stars](https://img.shields.io/github/stars/TianheWu/Assessor360?style=social)](https://github.com/TianheWu/Assessor360)
 
 
 This repository is the official PyTorch implementation of Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment. :fire::fire::fire:
