@@ -13,7 +13,7 @@ Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng an
 
 This repository is the official PyTorch implementation of Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment. :fire::fire::fire:
 
-Click into image to see different distorted level. You can also download [Insta360 Player](https://www.insta360.com/cn/download) to have a immersive experience.
+Click to see different distorted level omnidirectional images. You can also download [Insta360 Player](https://www.insta360.com/cn/download) to have a immersive experience.
 
 |Ground Truth|Distortion 1|Distortion 2|Distortion 3|Distortion 4|
 |       :---:       |     :---:        |        :-----:         |        :-----:         |        :-----:         | 
@@ -27,7 +27,24 @@ Click into image to see different distorted level. You can also download [Insta3
 |**MOS (GT)**|**4.35 (1)**|**3.35 (2)**|**2.6 (3)**|**1.3 (4)**|
 |**Ours (Assessor360)**|**0.8194 (1)**|**0.5481 (2)**|**0.3583 (3)**|**0.1165 (4)**|
 
+---
 
+> *Blind Omnidirectional Image Quality Assessment (BOIQA) aims to objectively assess the human perceptual quality of omnidirectional images (ODIs) without relying on pristine-quality image information. It is becoming more significant with the increasing advancement of virtual reality (VR) technology. However, the quality assessment of ODIs is severely hampered by the fact that the existing BOIQA pipeline lacks the modeling of the observer's browsing process. To tackle this issue, we propose a novel multi-sequence network for BOIQA called Assessor360, which is derived from the realistic multi-assessor ODI quality assessment procedure. Specifically, we propose a generalized Recursive Probability Sampling (RPS) method for the BOIQA task, combining content and detailed information to generate multiple pseudo viewport sequences from a given starting point. Additionally, we design a Multi-scale Feature Aggregation (MFA) module with Distortion-aware Block (DAB) to fuse distorted and semantic features of each viewport. We also devise TMM to learn the viewport transition in the temporal domain. Extensive experimental results demonstrate that Assessor360 outperforms state-of-the-art methods on multiple OIQA datasets.* 
+---
+
+## Usage
+### Training Assessor360
+- Modify "dataset_name" in config
+- Modify training and validation dataset path
+```
+python train_oiqa.py
+```
+### Predicting one image quality score
+- Modify the path of image "image_path"
+- Modify the path of checkpoint "model_weight_path"
+```
+python inference_one_image.py 
+```
 
 
 ## Citation
