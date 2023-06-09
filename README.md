@@ -45,11 +45,22 @@ We test our model performance in [CVIQD](https://github.com/sunwei925/CVIQDataba
 
 You can send emails to OIQA and MVAQD dataset authors to obtain datasets.
 
+## Checkpoints for Assessor360
+
+Click into the website and download the pretrained model checkpoints.
+| Training Set | Testing Set|        Checkpoints     | 
+| :---:        |     :---:      |:---:      |
+|[CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (16 reference images, 429 distorted images for training) | [CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (99 distorted images for testing) | |
+| OIQA dataset (16 reference images, 260 distorted images for training) | OIQA dataset (60 distorted images for testing) | |
+| [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (120 reference images, 768 distorted images for training) | [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (192 distorted images for testing) | |
+| MVAQD dataset (15 reference images, 240 distorted images for training) | OIQA dataset (60 distorted images for testing) | |
+
 
 ## Usage
 ### Training Assessor360
-- Modify "dataset_name" in config
+- Modify "dataset_name" to choose which datasets you want to tran in config
 - Modify training and validation dataset path
+model_name and type_name is the file path for saving checkpoint and log file
 ```
 python train_oiqa.py
 ```
