@@ -50,10 +50,10 @@ You can send emails to OIQA and MVAQD dataset authors to obtain datasets.
 Click into the website and download the pretrained model checkpoints.
 | Training Set | Testing Set|        Checkpoints     | 
 | :---:        |     :---:      |:---:      |
-|[CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (16 reference images, 429 distorted images for training) | [CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (99 distorted images for testing) | |
-| OIQA dataset (16 reference images, 260 distorted images for training) | OIQA dataset (60 distorted images for testing) | |
-| [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (120 reference images, 768 distorted images for training) | [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (192 distorted images for testing) | |
-| MVAQD dataset (15 reference images, 240 distorted images for training) | MVAQD dataset (60 distorted images for testing) | |
+|[CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (16 reference images, 429 distorted images for training) | [CVIQD](https://github.com/sunwei925/CVIQDatabase) dataset (99 distorted images for testing) |[download](https://github.com/TianheWu/Assessor360/releases/tag/Assessor360_v1)<br />SRCC:0.9801, PLCC:0.9836 |
+| OIQA dataset (16 reference images, 260 distorted images for training) | OIQA dataset (60 distorted images for testing) |[download](https://github.com/TianheWu/Assessor360/releases/tag/Assessor360_v1)<br />SRCC:0.9661, PLCC:0.9757 |
+| [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (120 reference images, 768 distorted images for training) | [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) dataset (192 distorted images for testing) |[download](https://github.com/TianheWu/Assessor360/releases/tag/Assessor360_v1)<br />SRCC:0.9476, PLCC:0.9544 |
+| MVAQD dataset (15 reference images, 240 distorted images for training) | MVAQD dataset (60 distorted images for testing) |[download](https://github.com/TianheWu/Assessor360/releases/tag/Assessor360_v1)<br />SRCC:0.9615, PLCC:0.9687 |
 
 
 ## Usage
