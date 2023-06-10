@@ -45,7 +45,7 @@ We test our model performance in [CVIQD](https://github.com/sunwei925/CVIQDataba
 
 You can send emails to OIQA and MVAQD dataset authors to obtain datasets.
 
-## Checkpoints for Assessor360
+## :1st_place_medal: Checkpoints for Assessor360
 
 Click into the website and download the pretrained model checkpoints.
 | Training Set | Testing Set|        Checkpoints     | 
@@ -56,7 +56,7 @@ Click into the website and download the pretrained model checkpoints.
 | MVAQD dataset (15 reference images, 240 distorted images for training) | MVAQD dataset (60 distorted images for testing) |[download](https://github.com/TianheWu/Assessor360/releases/tag/Assessor360_v1)<br />SRCC:0.9615, PLCC:0.9687 |
 
 
-## Usage
+## :hammer_and_wrench: Usage
 ### Training Assessor360
 - Modify "dataset_name" to choose which datasets you want to tran in config
 - Modify training and validation dataset path
