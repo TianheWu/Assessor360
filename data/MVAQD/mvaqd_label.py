@@ -170,7 +170,6 @@ class MVAQD(torch.utils.data.Dataset):
 
         integrated_weights = softmax(ent_list * cur_lat_weights * 100)
 
-        np.random.seed(20)
         while True:
             idx = np.random.choice([0, 1, 2, 3, 4, 5, 6, 7], p=integrated_weights.ravel())
             if zero_idx[idx] != 0:

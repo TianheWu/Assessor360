@@ -91,24 +91,24 @@ class OIQA(torch.utils.data.Dataset):
         d_img = cv2.imread(os.path.join(self.dis_path, d_img_name), cv2.IMREAD_COLOR)
 
         # Random
-        d1 = []
-        num_seq = 3
-        for i in range(num_seq):
-            seq_list = []
-            for j in range(self.viewport_nums):
-                r, c = np.random.randint(-180, 180), np.random.randint(-90, 90)
-                viewport = self.domain_transform.toREC(
-                    frame=d_img,
-                    center_point=np.array([c, r]),
-                    FOV=self.fov,
-                    width=self.viewport_size[0],
-                    height=self.viewport_size[1]
-                )
-                seq_list.append(viewport)
-            d1.append(np.array(seq_list, dtype=np.float32))
-        d1 = np.array(d1)
+        # d1 = []
+        # num_seq = 3
+        # for i in range(num_seq):
+        #     seq_list = []
+        #     for j in range(self.viewport_nums):
+        #         r, c = np.random.randint(-180, 180), np.random.randint(-90, 90)
+        #         viewport = self.domain_transform.toREC(
+        #             frame=d_img,
+        #             center_point=np.array([c, r]),
+        #             FOV=self.fov,
+        #             width=self.viewport_size[0],
+        #             height=self.viewport_size[1]
+        #         )
+        #         seq_list.append(viewport)
+        #     d1.append(np.array(seq_list, dtype=np.float32))
+        # d1 = np.array(d1)
 
-        # d1 = self.select_viewports(d_img)
+        d1 = self.select_viewports(d_img)
         for i in range(d1.shape[0]):
             for j in range(d1.shape[1]):
                 d1[i][j] = cv2.cvtColor(d1[i][j], cv2.COLOR_BGR2RGB)
@@ -197,7 +197,6 @@ class OIQA(torch.utils.data.Dataset):
 
         integrated_weights = softmax(ent_list * cur_lat_weights * 100)
 
-        np.random.seed(20)
         while True:
             idx = np.random.choice([0, 1, 2, 3, 4, 5, 6, 7], p=integrated_weights.ravel())
             if zero_idx[idx] != 0:
