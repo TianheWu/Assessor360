@@ -5,6 +5,7 @@ Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng an
 [Tsinghua University Intelligent Interaction Group](https://sites.google.com/view/iigroup-thu/home)
 
 :rocket:  :rocket:  :rocket: **Updates:**
+- ✅ **Sep. 22, 2023**: Our paper is accepted by NeurIPS 2023!
 - ✅ **June. 7, 2023**: We release the Assessor360 source code.
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-green.svg)](https://arxiv.org/abs/2305.10983)
