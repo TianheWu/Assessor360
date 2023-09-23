@@ -1,6 +1,15 @@
-# Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment
+<p align="center">
+    <img src="images/logo.png" width="400">
+</p>
 
-Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng and Yujiu Yang
+## Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment
+
+[Tianhe Wu](https://scholar.google.com/citations?user=QW1JtysAAAAJ&hl=en&oi=ao)<sup>1,\*</sup>, [Shuwei Shi](https://scholar.google.com/citations?user=2ZAstoQAAAAJ&hl=en&oi=ao)<sup>1,3\*</sup>, [Haoming Cai](https://scholar.google.com/citations?user=mePn76IAAAAJ&hl=en&oi=ao)<sup>2</sup>, [Mingdeng Cao](https://scholar.google.com/citations?user=EcS0L5sAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Jing Xiao](https://scholar.google.com/citations?user=mcBd8KUAAAAJ&hl=en&oi=ao)<sup>4</sup>, [Yinqiang Zheng](https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Yujiu Yang](https://scholar.google.com/citations?user=4gH3sxsAAAAJ&hl=en&oi=ao)<sup>1</sup>
+
+<sup>1</sup>Shenzhen International Graduate School, Tsinghua University<br>
+<sup>2</sup>University of Maryland, College Park<br>
+<sup>3</sup>The University of Tokyo<br>
+<sup>4</sup>Pingan Group
 
 [Tsinghua University Intelligent Interaction Group](https://sites.google.com/view/iigroup-thu/home)
 
@@ -12,7 +21,7 @@ Tianhe Wu*, Shuwei Shi*, Haoming Cai, Mingdeng Cao, Jing Xiao, Yinqiang Zheng an
 [![download](https://img.shields.io/github/downloads/TianheWu/Assessor360/total.svg)](https://github.com/TianheWu/Assessor360/releases)
 [![Open issue](https://img.shields.io/github/issues/TianheWu/Assessor360)](https://github.com/TianheWu/Assessor360/issues)
 [![Closed issue](https://img.shields.io/github/issues-closed/TianheWu/Assessor360)](https://github.com/TianheWu/Assessor360/issues)
-![visitors](https://visitor-badge.glitch.me/badge?page_id=TianheWu/Assessor360)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=TianheWu/Assessor360)
 [![IIGROUP](https://img.shields.io/badge/IIGROUP-github-red.svg)](https://github.com/IIGROUP)
 [![GitHub Stars](https://img.shields.io/github/stars/TianheWu/Assessor360?style=social)](https://github.com/TianheWu/Assessor360)
 
