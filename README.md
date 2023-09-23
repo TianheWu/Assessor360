@@ -59,7 +59,7 @@ Click into the website and download the pretrained model checkpoints.
 
 ## :hammer_and_wrench: Usage
 ### Training Assessor360
-- Modify "dataset_name" to choose which datasets you want to tran in config
+- Modify "dataset_name" to choose which datasets you want to train in config
 - Modify training and validation dataset path
 
 model_name and type_name is the file path for saving checkpoint and log file
