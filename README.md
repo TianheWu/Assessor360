@@ -83,7 +83,7 @@ python inference_one_image.py
 ```
 
 ## Acknowledgment
-We would like to thank [Xiangjie Sui](https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl=en&oi=ao) for his great and patient guidance on this work, Xinzhe Ni for designing the model title and [DiffBIR](https://github.com/XPixelGroup/DiffBIR/tree/main) published README.md file.
+We would like to thank [Xiangjie Sui](https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl=en&oi=ao) for his great and patient guidance on this work, [Xinzhe Ni](https://github.com/Xinzhe-Ni) for designing the model and [DiffBIR](https://github.com/XPixelGroup/DiffBIR/tree/main) published README.md file.
 
 
 ## Citation
