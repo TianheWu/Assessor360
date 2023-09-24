@@ -47,10 +47,10 @@ Click to see different distorted level omnidirectional images. You can also down
 > *Blind Omnidirectional Image Quality Assessment (BOIQA) aims to objectively assess the human perceptual quality of omnidirectional images (ODIs) without relying on pristine-quality image information. It is becoming more significant with the increasing advancement of virtual reality (VR) technology. However, the quality assessment of ODIs is severely hampered by the fact that the existing BOIQA pipeline lacks the modeling of the observer's browsing process. To tackle this issue, we propose a novel multi-sequence network for BOIQA called Assessor360, which is derived from the realistic multi-assessor ODI quality assessment procedure. Specifically, we propose a generalized Recursive Probability Sampling (RPS) method for the BOIQA task, combining content and detailed information to generate multiple pseudo viewport sequences from a given starting point. Additionally, we design a Multi-scale Feature Aggregation (MFA) module with Distortion-aware Block (DAB) to fuse distorted and semantic features of each viewport. We also devise TMM to learn the viewport transition in the temporal domain. Extensive experimental results demonstrate that Assessor360 outperforms state-of-the-art methods on multiple OIQA datasets.* 
 ---
 
-## Network Architecture
+## :book:Network Architecture
 ![image.png](images/pipeline.png)
 
-## Dataset
+## <a name="visual_results"></a>:eyes:Dataset
 We test our model performance in [CVIQD](https://github.com/sunwei925/CVIQDatabase), OIQA, MVAQD, [IQA-ODI](https://github.com/yanglixiaoshen/SAP-Net) four 2D VR IQA datasets.
 
 You can send emails to OIQA and MVAQD dataset authors to obtain datasets.
@@ -81,6 +81,9 @@ python train_oiqa.py
 ```
 python inference_one_image.py 
 ```
+
+## Acknowledgment
+We would like to thank [Xiangjie Sui](https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl=en&oi=ao) for his great and patient guidance on this work, Xinzhe Ni for designing the model title and [DiffBIR](https://github.com/XPixelGroup/DiffBIR/tree/main) published README.md file.
 
 
 ## Citation
