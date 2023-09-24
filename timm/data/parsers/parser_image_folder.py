@@ -1,6 +1,6 @@
 """ A dataset parser that reads images from folders
 
-Folders are scannerd recursively to find image files. Labels are based
+Folders are scanned recursively to find image files. Labels are based
 on the folder hierarchy, just leaf folders by default.
 
 Hacked together by / Copyright 2020 Ross Wightman
@@ -25,7 +25,7 @@ def find_images_and_targets(
     """ Walk folder recursively to discover images and map them to classes by folder names.
 
     Args:
-        folder: root of folder to recrusively search
+        folder: root of folder to recursively search
         types: types (file extensions) to search for in path
         class_to_idx: specify mapping for class (folder name) to class index if set
         leaf_name_only: use only leaf-name of folder walk for class names
