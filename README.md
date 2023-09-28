@@ -85,6 +85,12 @@ python inference_one_image.py
 ## Acknowledgment
 We would like to thank [Xiangjie Sui](https://scholar.google.com/citations?user=IAnTG2cAAAAJ&hl=en&oi=ao) for his great and patient guidance on this work, [Xinzhe Ni](https://github.com/Xinzhe-Ni) for designing the model and [DiffBIR](https://github.com/XPixelGroup/DiffBIR/tree/main) published README.md file.
 
+## Related Work
+### NTIRE2022 IQA No-Reference Competition
+[CVPRW 2022] MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment. (1th place in NR track)
+
+[![paper](https://img.shields.io/badge/arXiv-Paper-green.svg)](https://arxiv.org/pdf/2204.08958.pdf)
+[![code](https://img.shields.io/badge/code-github-red.svg)](https://github.com/IIGROUP/MANIQA)
 
 ## Citation
 ```
