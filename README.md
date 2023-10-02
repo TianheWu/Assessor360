@@ -4,11 +4,11 @@
 
 ## Assessor360: Multi-sequence Network for Blind Omnidirectional Image Quality Assessment
 
-[Tianhe Wu](https://scholar.google.com/citations?user=QW1JtysAAAAJ&hl=en&oi=ao)<sup>1,\*</sup>, [Shuwei Shi](https://scholar.google.com/citations?user=2ZAstoQAAAAJ&hl=en&oi=ao)<sup>1,3\*</sup>, [Haoming Cai](https://scholar.google.com/citations?user=mePn76IAAAAJ&hl=en&oi=ao)<sup>2</sup>, [Mingdeng Cao](https://scholar.google.com/citations?user=EcS0L5sAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Jing Xiao](https://scholar.google.com/citations?user=mcBd8KUAAAAJ&hl=en&oi=ao)<sup>4</sup>, [Yinqiang Zheng](https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Yujiu Yang](https://scholar.google.com/citations?user=4gH3sxsAAAAJ&hl=en&oi=ao)<sup>1</sup>
+[Tianhe Wu](https://scholar.google.com/citations?user=QW1JtysAAAAJ&hl=en&oi=ao)<sup>1,\*</sup>, [Shuwei Shi](https://scholar.google.com/citations?user=2ZAstoQAAAAJ&hl=en&oi=ao)<sup>1,2\*</sup>, [Haoming Cai](https://scholar.google.com/citations?user=mePn76IAAAAJ&hl=en&oi=ao)<sup>3</sup>, [Mingdeng Cao](https://scholar.google.com/citations?user=EcS0L5sAAAAJ&hl=en&oi=ao)<sup>2</sup>, [Jing Xiao](https://scholar.google.com/citations?user=mcBd8KUAAAAJ&hl=en&oi=ao)<sup>4</sup>, [Yinqiang Zheng](https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en&oi=ao)<sup>2</sup>, [Yujiu Yang](https://scholar.google.com/citations?user=4gH3sxsAAAAJ&hl=en&oi=ao)<sup>1</sup>
 
 <sup>1</sup>Shenzhen International Graduate School, Tsinghua University<br>
-<sup>2</sup>University of Maryland, College Park<br>
-<sup>3</sup>The University of Tokyo<br>
+<sup>2</sup>The University of Tokyo<br>
+<sup>3</sup>University of Maryland, College Park<br>
 <sup>4</sup>Pingan Group
 
 [Tsinghua University Intelligent Interaction Group](https://sites.google.com/view/iigroup-thu/home)
